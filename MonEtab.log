@@ -1,0 +1,22 @@
+2024-09-19T10:47:00.018Z  INFO 21516 --- [forum] [main] ci.apirest.forum.ForumApplication        : Starting ForumApplication using Java 22.0.1 with PID 21516 (C:\Users\DELL\forums\Forum\target\classes started by DELL in C:\Users\DELL\forums\Forum)
+2024-09-19T10:47:00.031Z  INFO 21516 --- [forum] [main] ci.apirest.forum.ForumApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-09-19T10:47:01.334Z  INFO 21516 --- [forum] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-19T10:47:01.421Z  INFO 21516 --- [forum] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2024-09-19T10:47:02.132Z  INFO 21516 --- [forum] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-19T10:47:02.154Z  INFO 21516 --- [forum] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-19T10:47:02.155Z  INFO 21516 --- [forum] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-19T10:47:02.243Z  INFO 21516 --- [forum] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-19T10:47:02.243Z  INFO 21516 --- [forum] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2130 ms
+2024-09-19T10:47:02.516Z  INFO 21516 --- [forum] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-19T10:47:02.638Z  INFO 21516 --- [forum] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-19T10:47:02.699Z  INFO 21516 --- [forum] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-19T10:47:03.282Z  INFO 21516 --- [forum] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-19T10:47:03.328Z  INFO 21516 --- [forum] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-19T10:47:03.642Z  INFO 21516 --- [forum] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6eaa6b0c
+2024-09-19T10:47:03.644Z  INFO 21516 --- [forum] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-19T10:47:03.735Z  WARN 21516 --- [forum] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-19T10:47:05.100Z  INFO 21516 --- [forum] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-19T10:47:05.365Z  INFO 21516 --- [forum] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-19T10:47:06.005Z  WARN 21516 --- [forum] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-19T10:47:07.091Z  INFO 21516 --- [forum] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-19T10:47:07.098Z  INFO 21516 --- [forum] [main] ci.apirest.forum.ForumApplication        : Started ForumApplication in 7.653 seconds (process running for 9.433)
